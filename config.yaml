@@ -1,12 +1,12 @@
 ---
 # Database connection string
-connection_string: "postgres://trees@localhost/treedb"
+connection_string: "postgres://trees:trees3r4t@localhost/treedb"
 
 # Connection keep alive timeout [default: 75]
 keep_alive: 75
 
 # The socket address to bind [default: 0.0.0.0:3000]
-listen_addresses: "localhost:3001"
+listen_addresses: "127.0.0.1:3000"
 
 # Maximum connections pool size [default: 20]
 pool_size: 20
@@ -51,11 +51,11 @@ table_sources:
       id_tree: int4
 
 # associative arrays of function sources
-function_sources:
-  public.get_treedata:
+# function_sources:
+#public.get_treedata:
     # function source id
-    id: public.get_treedata
+    #   id: public.get_treedata
     # schema name
-    schema: public
+    #schema: public
     # function name
-    function: get_treedata
+    #function: get_treedata

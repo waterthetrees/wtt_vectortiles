@@ -1,0 +1,11 @@
+[Unit]
+Description=Martin Vector Tile Server process manager
+Documentation=https://github.com/urbica/martin
+
+[Service]
+User=trees
+Restart=on-failure
+ExecStart=/var/www/html/dev.waterthetrees.com/wtt_vectortiles/martinstartup.sh start
+
+[Install]
+WantedBy=multi-user.target
