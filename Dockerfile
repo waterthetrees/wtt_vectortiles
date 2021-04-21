@@ -1,3 +1,2 @@
 FROM urbica/martin
-
-COPY ./config.yaml /config.yaml
+COPY ./config.localserver.yaml /config.yaml

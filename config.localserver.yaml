@@ -1,6 +1,6 @@
 ---
 # Database connection string
-connection_string: "postgres://trees@localhost/treedb"
+connection_string: "postgres://trees:trees3r4t@localhost/treedb"
 
 # Connection keep alive timeout [default: 75]
 keep_alive: 75
