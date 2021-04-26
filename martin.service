@@ -5,7 +5,7 @@ Documentation=https://github.com/urbica/martin
 [Service]
 User=trees
 Restart=on-failure
-ExecStart=/var/www/html/dev.waterthetrees.com/wtt_vectortiles/martinstartup.sh start
+ExecStart=/var/www/html/blue.waterthetrees.com/waterthetrees/wtt_vectortiles/martinstartup.sh start
 
 [Install]
 WantedBy=multi-user.target
