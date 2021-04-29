@@ -1,12 +1,12 @@
 ---
 # Database connection string
-connection_string: "postgres://trees:trees3r4t@localhost/treedb"
+connection_string: "postgres://trees:trees3r4t@postgis-wtt/treedb"
 
 # Connection keep alive timeout [default: 75]
 keep_alive: 75
 
 # The socket address to bind [default: 0.0.0.0:3000]
-listen_addresses: "localhost:3001"
+listen_addresses: "127.0.0.1:3001"
 
 # Maximum connections pool size [default: 20]
 pool_size: 20
