@@ -48,7 +48,7 @@ table_sources:
       city: varchar
       scientific: varchar
       health: varchar
-      id_tree: int4
+      id: int4
 
 # associative arrays of function sources
 # function_sources:
